@@ -3,7 +3,7 @@
 
 | 姓名 / 聯絡資訊 |
 | :--- |
-| 徐碩君 / nnbsxel7478@gmail.com |
+| 徐碩君 $\mid$ nnbsxel7478@gmail.com |
 
 ---
 
@@ -21,10 +21,10 @@
 
 | 類別 | 技術細節 |
 | :--- | :--- |
-| **程式語言** | C, C++, Python |
+| **程式語言** | C, C++ |
 | **作業系統與平台** | **Windows Kernel/User Mode (Minifilter, API Hook)**, Embedded Linux, eCos, ARM64/x64 |
 | **資安與系統** | Exploit Shield, BSoD Prevention Logic, Fileless Attack Detection, GitHub Actions (CI/CD), Unit Testing |
-| **網路與通訊** | IPv6, IGMP, Modbus TCP, EtherNet/IP (ODVA Certified), Ethernet/Wireless Bridge, Linux Networking |
+| **網路與通訊** | IPv6, IGMP, Modbus TCP, EtherNet/IP (ODVA Certified) |
 
 ---
 
@@ -36,18 +36,24 @@
 #### 【資安核心機制與系統可靠性】
 
 * **Exploit Shield 開發：** 設計並實作**使用者模式 API Hook 模組**，建立 **Exploit Shield 機制**，有效偵測並攔截多種**新型態 Exploit 攻擊**，顯著強化端點防護能力。
-* **系統級穩定性創新 (BSoD 預防)：** 開發並實作**BSoD 迴圈預防機制**，透過**紀錄與分析系統崩潰 (BSoD) 狀態**，主動避免因自家或其他廠商驅動程式的**相容性問題**導致的系統癱瘓，大幅提升產品穩定性。
-* **跨平台移植：** 成功將**核心 API Hook 機制**與使用者模式模組完整移植至 **Windows on ARM64** 平台，大幅擴展產品的相容性與市場覆蓋。
-* **硬體整合優化：** 領導整合 **Intel® Threat Detection Technology (TDT)**，利用硬體級加速功能，**提升產品的惡意程式偵測效率與效能**。
+* **系統級穩定性創新 (BSoD 預防)：** 開發並實作**BSoD 迴圈預防機制**，透過**紀錄與分析系統崩潰 (BSoD) 狀態**，主動避免因自家或其他廠商驅動程式的**相容性問題**導致的系統持續崩潰。
+* **跨平台移植：** 成功將 **API Hook 機制** 與 **使用者模式模組** 完整移植至 **Windows on ARM64** 平台，擴展產品的相容性與市場覆蓋。
+* **高效能監控框架：** 設計並實作**同步/非同步**事件處理流程，以flatbuffers為基礎通訊格式，建立具備高度彈性的**動態配置管理**與**外掛系統**，確保高吞吐量下的行為監控效率，以及不同版本間的相容性。
 
-#### 【架構、DevOps 與品質優化】
 
-* **高效能監控框架：** 設計並實作**同步/非同步**事件處理流程，建立具備高度彈性的**動態配置管理**與**外掛系統**，確保高吞吐量下的行為監控效率。
-* **DevOps 與品質：** **主導**建立基於 **GitHub Actions** 的完整 **CI/CD 自動化流程**。**導入單元測試 (Unit Test)** 至核心模組，並建立**數據自動化分析流程**，以**取代人工處理**，加速問題發現與解決，有效提升程式碼品質與產品穩定性。
-* **技術合作：** 參與 **Microsoft 新一代 Windows Endpoint Security Platform** 的設計討論，提供關鍵性回饋與錯誤報告，確保產品與 OS 平台的深度整合。
+#### 【技術合作】
+* 整合 **Intel® Threat Detection Technology (TDT)**，利用 CPU 級別的遙測數據和 AI，實作勒索軟體等進階威脅的行為偵測，顯著強化產品在硬體層面的防禦能力。
+* 參與 **Microsoft** 新一代 **Windows Endpoint Security Platform** 的早期設計，與微軟工程師共同討論討論產品規格並協助測試提供報告。
+
+
+#### 【DevOps 與品質優化】
+* **核心模組品質提升：** 主導導入單元測試 (Unit Test) 框架至核心模組，並成功將程式碼覆蓋率提升至 90% 以上，從根本上確保程式碼品質。
+* **CI/CD 流程建置：** 建立基於 GitHub Actions 的完整 CI/CD 自動化流程，有效提升開發效率和部署一致性。
+* **產品分析:** 帶領團隊建立自動化的資料分析流程，將每週的產品 telemetry 分析時間從原來的 4 天/人 縮短為 1 小時。此自動化流程基於在客戶端運行的時間，設定的開關，以及錯誤訊息。
+
 
 ### 2. 軟體研發工程師 (Software R&D Engineer)
-**四零四科技股份有限公司 (Moxa)** $\mid$ **期間：** 6 年 (約 2007 年中 - 2013 年 12 月)
+**四零四科技股份有限公司 (Moxa)** $\mid$ **期間：** 6 年 (約 2007 年 8 月 - 2013 年 12 月)
 
 #### 【嵌入式系統韌體與網路協定開發】
 
